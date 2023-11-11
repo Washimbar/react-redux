@@ -4,7 +4,7 @@ const initialCount = {
 	count: 0,
 };
 
-export const counterReducer = (state, action) => {
+export const counterReducer = (state = initialCount, action) => {
 	switch (action.type) {
 		case INCREMENT:
 			return {
