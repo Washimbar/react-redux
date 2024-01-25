@@ -1,12 +1,12 @@
-import { INCREMENT, DECREMENT } from "../../constants";
+import { DECREMENT, INCREMENT } from "../../constants/counter.constant";
 
-export const incrementCounter = () => {
+export const incrementCount = () => {
 	return {
 		type: INCREMENT,
 	};
 };
 
-export const decrementCounter = () => {
+export const decrementCount = () => {
 	return {
 		type: DECREMENT,
 	};

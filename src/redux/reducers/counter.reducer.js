@@ -1,8 +1,8 @@
-import { DECREMENT, INCREMENT } from "../../../constants";
-import { initialCount } from "../../initial-states";
+import { DECREMENT, INCREMENT } from "../../constants/counter.constant";
+
+const initialCount = { count: 0 };
 
 export const counterReducer = (state = initialCount, action) => {
-	console.log(action);
 	switch (action.type) {
 		case INCREMENT:
 			return {
