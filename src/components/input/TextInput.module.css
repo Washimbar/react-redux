@@ -1,0 +1,14 @@
+/* TextInput.module.css */
+.textInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6c78e5;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.textInput:focus {
+    outline: none !important;
+    border: 1px solid #0614ae;
+    box-shadow: 0 0 10px #7192ce;
+}

@@ -1,0 +1,9 @@
+.todoChips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #715fe4;
+    border-radius: 6px;
+    width: 400px;
+}
